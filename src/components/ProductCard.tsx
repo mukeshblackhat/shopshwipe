@@ -205,7 +205,7 @@ export default function ProductCard({ product, onSwipe, onAddToCart, onAddToFavo
           <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 to-transparent p-6">
             <div className="flex items-center justify-between mb-2">
               <h2 className="text-2xl font-bold text-white">{product.name}</h2>
-              <span className="text-xl text-white">${product.price}</span>
+              <span className="text-xl text-white">₹{product.price}</span>
             </div>
             <p className="text-sm text-gray-200 mb-2">{product.description}</p>
             <p className="text-xs text-gray-300 mb-2">Category: {product.category}</p>
